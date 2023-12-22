@@ -18,6 +18,7 @@ public class UserServiceImpl implements UserService {
 	static {
 		userList = new ArrayList<>();
 		userList.add(new User(1, "administrator", "admin", "123456"));
+		userList.add(new User(1, "client1", "client1", "123456"));
 	}
 	
 	@Override
